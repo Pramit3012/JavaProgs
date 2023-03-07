@@ -1,0 +1,60 @@
+TOKENS in JAVA
+K-keywords(int, float, char, double, private, public, if, do,while,protected)
+I-identifers
+L-literals(constants)
+p/s-Punctuations/Seperations
+O-operators
+Datatypes of java
+Primitive-Boolean, Numeric[Character(char), Integral(Integer(byte,short,int,long), Floating point(float,double))]
+Non primitive-String, Array etc
+Increment and Decrement: Same as c or c++.
+Static data member function:
+points:-i>Static data members are not part of any object it is the part of the class.
+ii.It cannot invoked directly using the class name
+iii.Static member function can used only static data member.
+Inheritance-
+It is always better to use pre existing resource rather than creating all over again.This is done using inheritance.
+inheritance provides us a a way using which we can use pre existing resource to our current program.
+Benifits: Reusability.
+Types of Inheritance:
+1)Single Inheritance-When one base class is being derived by a single derived class, then this is called single inheritance.
+2)Multiple Inheritance-Java doesn't supprort multiple inheritance.
+Why java does not support multiple inheritance?
+Ans- Whenever a sub class work to inherit the propertyof two or more super classes that have same method java  complier can't decide which class method it should
+inherit.
+Then their might be a chance of memory duplication i.e a reason java doesn,t support multiple inheritance through classes.
+3)Multilevel Inheritance-When a class inherits in another class and again the another class being inherited by another class,
+then this is called multilevel inheritance.
+4)Hierarchical Inheritance-Hierarchical Inheritance is a type of inheritance in which one class is derived by multiple classes.
+5)HYbrid Inheritance.
+To use inheritance in java we have to use 'extends' keyword.
+Method Overriding-
+When there is same name function in base and derived class, then call and not the base class function. We can say here that the derived class function has overriden 
+base class function & this is called Method Overriding.
+Final Variable-A final variable is a variable whose value can't be changed during the execution of the program.
+Final Method-A final method prevents the method overriding.
+Polymorphism-An object having multiple working called polymorphism
+Types i)RunTime Polymorphism ii)Compiletime Polymorphism
+Encapsulation is a mechanism through which we can wrapping the data members and member function of a class in a single unit called encapsulation.
+Abstraction-Abstraction is a process of hiding the implementation details from the user only the highlighted set of the services provided to the user.
+Advantage-i)Security ii)Enhancement
+Abstraction types--
+i)Abstract class-A class which contains the abstract keyword in its declaration is called abstract class.
+We can't create object for abstract class.
+We may or may not contain abstract methods.
+It can have abstract & non-abstract methods.
+To use an abstract class , you have to inherite it from sub class.
+If a class contain partial implementation then we should declare a class as abstract.
+Abstraction method-A method which contain abstract modifier at the line of declaration is called abstract method.
+Note-i)It can only be used in abstract class.
+ii)It doesn't contain any body "{}"and always ends with ";".
+iii)Abstract method must be overridden in sub classes otherwise it will also become a abstract class
+iv)Whenever the action is common but implementation are different then we should use abstract method
+**************************************************Interface************************************************
+What is interface?
+Ans-Interface is just like a class , which contains java provides a keyword called 'implements'
+Notes-
+i)Interface methods are by default public & abstract.
+ii)Interface method must be overrides inside then implementing classes
+iii)Interface variables are by default public, static, final.
+iv)Interface nothing but deals between client & developer..
